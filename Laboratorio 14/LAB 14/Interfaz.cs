@@ -209,10 +209,10 @@ namespace Laboratorio_14.LAB_14
             {
                 Console.WriteLine("\nEl número ingresado no existe");
             }
-            else
+           else
             {
-                Console.WriteLine($"\n{vacunados} se vacunaron");
-                Console.WriteLine($"{nroVacunados} no se vacunaron");
+                Console.WriteLine("\n" + vacunados + " se vacunaron");
+                Console.WriteLine(nroVacunados+ " no se vacunaron");
             }
             string texto2 = " \n" +
               "================================\n" +
